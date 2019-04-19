@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128" height="128" width="128">
+    <style>
+@keyframes spinner_t { 0% { transform: translate(31.7811px,32px) rotate(0deg) scale(1,1) translate(-32.5px,-29px); } 68.1818% { transform: translate(31.7811px,32px) rotate(1080deg) scale(1,1) translate(-32.5px,-29px); } 70.4545% { transform: translate(31.7811px,32px) rotate(1080deg) scale(0,0) translate(-32.5px,-29px); } 100% { transform: translate(31.7811px,32px) rotate(1080deg) scale(0,0) translate(-32.5px,-29px); } }
+@keyframes green_circle_t { 0% { transform: translate(32px,32px) scale(0,0); } 70.4545% { transform: translate(32px,32px) scale(1,1); } 100% { transform: translate(32px,32px) scale(1,1); } }
+@keyframes check_do { 0% { stroke-dashoffset: 25.66px; } 68.1818% { stroke-dashoffset: 25.66px; animation-timing-function: cubic-bezier(0.455,0.03,0.515,0.955); } 77.2727% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
+    </style>
+    <title>syncing_spinner</title>
+    <desc>Created with Sketch.</desc>
+    <g id="syncing_spinner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(64,64) scale(2,2) translate(-31.7811,-32)">
+        <g id="spinner" opacity="1" transform="translate(31.7811,32) translate(-32.5,-29)" style="animation: 4.4s linear infinite both spinner_t;">
+            <path id="r" fill="#0076F2" d="M63,14.2811L63,21.2811L56,21.2811" transform="translate(59.5,17.7811) rotate(30) translate(-59.5,-17.7811)"/>
+            <path id="Shape" d="M59.5186,17.8996C58.0488,14.3551,55.8962,11.1651,53.225,8.4939C47.977,3.24594,40.727,0,32.7189,0C24.7108,0,17.4608,3.24594,12.2128,8.4939C9.54158,11.1651,7.38905,14.3551,5.91925,17.8996M5.91925,40.1004C7.38905,43.6449,9.54158,46.8349,12.2128,49.5061C17.4608,54.7541,24.7108,58,32.7189,58L32.7189,58C40.727,58,47.977,54.7541,53.225,49.5061C55.8962,46.8349,58.0488,43.6449,59.5186,40.1004" stroke="#0076F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="l" fill="#0076F2" d="M9,36.2811L9,43.2811L2,43.2811" transform="translate(5.5,39.7811) rotate(-150) translate(-5.5,-39.7811)"/>
+        </g>
+        <ellipse id="green_circle" stroke="#00FF6A" stroke-width="5" fill="#00FF6A" rx="29" ry="29" transform="translate(32,32) scale(0,0)" style="animation: 4.4s linear infinite both green_circle_t;"/>
+        <path id="check" d="M0,0L8.25483,6.4142L21.1094,-1.6952" fill="none" stroke-linecap="round" stroke="#ffffff" stroke-width="4" stroke-dasharray="25.66 25.66" stroke-dashoffset="25.66" transform="translate(22.0029,33.431) rotate(-14.6517)" style="animation: 4.4s linear infinite both check_do;"/>
+    </g>
+</svg>
