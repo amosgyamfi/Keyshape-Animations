@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <style>
+@keyframes leg_l_t { 0% { transform: translate(17.4706px,15.2759px) rotate(0deg) translate(-17.4706px,-15.2759px); animation-timing-function: cubic-bezier(0.55,0.085,0.68,0.53); } 40% { transform: translate(17.4706px,15.2759px) rotate(37.142862deg) translate(-17.4706px,-15.2759px); animation-timing-function: cubic-bezier(0.55,0.085,0.68,0.53); } 80% { transform: translate(17.4706px,15.2759px) rotate(1.472937deg) translate(-17.4706px,-15.2759px); animation-timing-function: cubic-bezier(0.55,0.085,0.68,0.53); } 100% { transform: translate(17.4706px,15.2759px) rotate(0deg) translate(-17.4706px,-15.2759px); } }
+@keyframes leg_l_d { 0% { d: path('M17.4706,15.2759L27,21.6207L25.4118,34.3103'); animation-timing-function: cubic-bezier(0.55,0.085,0.68,0.53); } 40% { d: path('M17.4706,15.2759L27,21.6207L38.3044,31.1385'); animation-timing-function: cubic-bezier(0.55,0.085,0.68,0.53); } 80% { d: path('M17.4706,15.2759L27,21.6207L20.0192,35.4412'); animation-timing-function: cubic-bezier(0.55,0.085,0.68,0.53); } 100% { d: path('M17.4706,15.2759L27,21.6207L25.4118,34.3103'); } }
+@keyframes leg_r_t { 0% { transform: translate(14.2941px,12.1034px) rotate(-8.996413deg) translate(-14.2941px,-12.1034px); } 40% { transform: translate(14.2941px,12.1034px) rotate(-38.8299deg) translate(-14.2941px,-12.1034px); } 80% { transform: translate(14.2941px,12.1034px) rotate(-0.685663deg) translate(-14.2941px,-12.1034px); } 100% { transform: translate(14.2941px,12.1034px) rotate(-8.996413deg) translate(-14.2941px,-12.1034px); } }
+@keyframes leg_r_d { 0% { d: path('M14.2941,12.1034L20.6471,26.3793L15.1837,36.5747'); } 40% { d: path('M14.2941,12.1034L20.6471,26.3793L6.33968,31.8837'); } 80% { d: path('M14.2941,12.1034L20.6471,26.3793L20.5011,38.5762'); } 100% { d: path('M14.2941,12.1034L20.6471,26.3793L15.1837,36.5747'); } }
+    </style>
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="biking" transform="translate(5,8)">
+            <path id="hand" stroke="#676767" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" d="M34.1471,15.2759L34.1471,23.2069L43.6765,23.2069"/>
+            <path id="leg_l" stroke="#575757" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" d="M17.4706,15.2759L27,21.6207L25.4118,34.3103" transform="translate(17.4706,15.2759) translate(-17.4706,-15.2759)" style="animation: 1s linear infinite both leg_l_t, 1s linear infinite both leg_l_d;"/>
+            <g id="tyres" stroke="#000000" stroke-width="3.2" transform="translate(0,24.7931)">
+                <ellipse id="back" rx="11.1176" ry="11.1034" stroke="#575757" transform="translate(0,0) translate(11.1176,11.1034)"/>
+                <path id="front" d="M34.9203,3.35399C32.9677,5.35476,31.7647,8.0888,31.7647,11.1034C31.7647,17.2357,36.7422,22.2069,42.8824,22.2069L42.8824,22.2069C49.0225,22.2069,54,17.2357,54,11.1034C54,6.72975,51.468,2.94668,47.788,1.13661" stroke-linecap="round" stroke-linejoin="round" stroke="#575757"/>
+            </g>
+            <path id="leg_r" stroke="#676767" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" d="M14.2941,12.1034L20.6471,26.3793L15.1837,36.5747" transform="translate(14.2941,12.1034) rotate(-8.99641) translate(-14.2941,-12.1034)" style="animation: 1s linear infinite both leg_r_t, 1s linear infinite both leg_r_d;"/>
+            <path id="body" d="M15.8763,5.75862L31.7294,5.75862C34.3804,5.75862,36.5294,7.90765,36.5294,10.5586L36.5294,15.2759L15.8763,15.2759C13.2482,15.2759,11.1176,13.1454,11.1176,10.5172L11.1176,10.5172C11.1176,7.88913,13.2482,5.75862,15.8763,5.75862Z" fill="#676767"/>
+            <ellipse id="head" fill="#676767" rx="4.76471" ry="4.75862" transform="translate(0,0) translate(42.8824,6.75862)"/>
+        </g>
+    </g>
+</svg>
