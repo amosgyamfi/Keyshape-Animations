@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <style>
+@keyframes whole_body_t { 0% { transform: translate(17.5294px,28px) rotate(0deg) translate(-15.5294px,-28px); animation-timing-function: cubic-bezier(0.445,0.05,0.55,0.95); } 35.7142% { transform: translate(17.5294px,28px) rotate(17.427691deg) translate(-15.5294px,-28px); animation-timing-function: cubic-bezier(0.445,0.05,0.55,0.95); } 64.2857% { transform: translate(17.5294px,28px) rotate(0deg) translate(-15.5294px,-28px); } 100% { transform: translate(17.5294px,28px) rotate(0deg) translate(-15.5294px,-28px); } }
+@keyframes hand_t { 0% { transform: translate(8.7812px,13px) rotate(0deg) translate(-10.7812px,-13px); } 35.7142% { transform: translate(8.7812px,13px) rotate(-68.699857deg) translate(-10.7812px,-13px); } 100% { transform: translate(8.7812px,13px) rotate(-68.699857deg) translate(-10.7812px,-13px); } }
+@keyframes hand_d { 0% { d: path('M10.7812,13L2,18.2069L10.7812,26.4828'); } 35.7143% { d: path('M10.7812,13L2,18.2069L-0.68019,27.2118'); } 50% { d: path('M10.7812,13L2,18.2069L-11.146,25.3501'); } 64.2857% { d: path('M10.7812,13L3.58042,6.91913L-1.33077,17.7223'); } 100% { d: path('M10.7812,13L3.58042,6.91913L-1.33077,17.7223'); } }
+@keyframes push_handle_t { 0% { transform: translate(13.2918px,39.4786px) rotate(0deg) translate(-11.1176px,-11.12px); } 28.5714% { transform: translate(13.2918px,39.4786px) rotate(0deg) translate(-11.1176px,-11.12px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 71.4285% { transform: translate(13.2918px,39.4786px) rotate(360deg) translate(-11.1176px,-11.12px); } 100% { transform: translate(13.2918px,39.4786px) rotate(360deg) translate(-11.1176px,-11.12px); } }
+    </style>
+    <title>wheel_chair</title>
+    <desc>Created with Sketch.</desc>
+    <g id="wheel_chair" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(17,6)">
+            <path id="leg" stroke="#676767" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" d="M17,26L28.1104,28.7931L31,43.069"/>
+            <g id="wheel" stroke-width="3.2" transform="translate(4.17166,25.1778) rotate(10)">
+                <ellipse id="back" stroke="#575757" rx="11.1176" ry="11.1034" transform="translate(11.1192,12.1006)"/>
+            </g>
+            <g id="whole_body" transform="translate(17.5294,28) translate(-15.5294,-28)" style="animation: 1.4s linear infinite both whole_body_t;">
+                <path id="body" d="M8.72691,14.2414L19.4195,14.2414C21.1494,14.2414,22.5517,15.5845,22.5517,17.2414L23.7586,22.7586C23.7586,24.4155,21.1494,23.7586,19.4195,23.7586L8.72691,23.7586C5.983,23.7586,3.75862,21.6281,3.75862,19L3.75862,19C3.75862,16.3719,5.983,14.2414,8.72691,14.2414Z" fill="#575757" transform="translate(10.7586,19) rotate(90) translate(-12.7586,-19)"/>
+                <path id="hand" stroke="#676767" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" d="M10.7812,13L2,18.2069L10.7812,26.4828" transform="translate(8.7812,13) translate(-10.7812,-13)" style="animation: 1.4s linear infinite both hand_t, 1.4s linear infinite both hand_d;"/>
+                <ellipse id="head" fill="#676767" rx="4.76471" ry="4.75862" transform="translate(10.7647,9.51724) translate(0,-4.75862)"/>
+            </g>
+            <path id="push_handle" d="M3.15559,3.21738C1.20295,5.21815,0,7.95219,0,10.9668C0,17.0991,4.97754,22.0703,11.1176,22.0703L11.1176,22.0703C17.2578,22.0703,22.2353,17.0991,22.2353,10.9668C22.2353,6.59314,19.7033,2.81007,16.0233,1" stroke="#676767" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.2918,39.4786) translate(-11.1176,-11.12)" style="animation: 1.4s linear infinite both push_handle_t;"/>
+        </g>
+    </g>
+</svg>
